@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_wo31wPgAEeWRyr1v_6zMdg" name="SIUSDB" id="_jX_1kPgAEeWRyr1v_6zMdg" label="SIUSDB" dataPackage="_Tyy68PgDEeWRyr1v_6zMdg" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://localhost:3306/sius?" dbVersionString="MYSQL_5" Port="3306" Username="test" Password="A6+FeQ5U2Pw=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="sius" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_wo4c0PgAEeWRyr1v_6zMdg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_wpHGUPgAEeWRyr1v_6zMdg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_wpN0APgAEeWRyr1v_6zMdg" tag="Status" value=""/>
+    <taggedValue xmi:id="_wpN0AfgAEeWRyr1v_6zMdg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_wpN0AvgAEeWRyr1v_6zMdg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_wpN0A_gAEeWRyr1v_6zMdg" tag="Description" value=""/>
+    <taggedValue xmi:id="_wpN0BPgAEeWRyr1v_6zMdg" tag="Author" value=""/>
+    <taggedValue xmi:id="_wpN0BfgAEeWRyr1v_6zMdg" tag="otherParameter"/>
+    <taggedValue xmi:id="_TynUwPgDEeWRyr1v_6zMdg" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_TynUwfgDEeWRyr1v_6zMdg" tag="DB ProductVersion" value="5.6.24"/>
+    <taggedValue xmi:id="_TynUwvgDEeWRyr1v_6zMdg" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_wo4c0fgAEeWRyr1v_6zMdg" key="CONN_PARA_KEY_USERNAME" value="test"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_Tyy68PgDEeWRyr1v_6zMdg" name="sius" dataManager="_wo31wPgAEeWRyr1v_6zMdg"/>
+</xmi:XMI>

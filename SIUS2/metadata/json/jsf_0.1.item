@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_gmv3EPGLEeWZk6OiYSRt7A" name="jsf" dataPackage="_gmweJPGLEeWZk6OiYSRt7A" JSONFilePath="C:/Users/AnhDung/Documents/test - Kopie.json" Encoding="UTF-8" inputModel="false">
+    <root xmi:id="_gmweIPGLEeWZk6OiYSRt7A" JSONPath="/employees" RelatedColumn="" Attribute="main" Order="1" Type="id_String"/>
+    <root xmi:id="_gmweIfGLEeWZk6OiYSRt7A" JSONPath="/employees/firstName2" RelatedColumn="firstName2" Attribute="branch" Order="3" Type="id_String"/>
+    <root xmi:id="_gmweIvGLEeWZk6OiYSRt7A" JSONPath="/employees/lastName" RelatedColumn="lastName" Attribute="branch" Order="4" Type="id_String"/>
+    <loop xmi:id="_gmweI_GLEeWZk6OiYSRt7A" JSONPath="/employees/firstName1" RelatedColumn="firstName1" Attribute="main" Order="2" Type="id_String"/>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_gmweJPGLEeWZk6OiYSRt7A" name="default" dataManager="_gmv3EPGLEeWZk6OiYSRt7A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_gmweJfGLEeWZk6OiYSRt7A" id="_VGs7UPGLEeWZk6OiYSRt7A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gmweJvGLEeWZk6OiYSRt7A" name="firstName1" label="firstName1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gmweJ_GLEeWZk6OiYSRt7A" name="firstName2" label="firstName2" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gmweKPGLEeWZk6OiYSRt7A" name="lastName" label="lastName" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

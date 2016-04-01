@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_enzt8PgJEeWRyr1v_6zMdg" name="Order" dataPackage="_enzuK_gJEeWRyr1v_6zMdg" JSONFilePath="C:/Users/AnhDung/Documents/order.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_enzt8fgJEeWRyr1v_6zMdg" LimitBoucle="50" AbsoluteXPathQuery="$.order">
+      <schemaTargets xmi:id="_enzt8vgJEeWRyr1v_6zMdg" RelativeXPathQuery="associations.order_rows[*].product_name" TagName="product_name"/>
+      <schemaTargets xmi:id="_enzt8_gJEeWRyr1v_6zMdg" RelativeXPathQuery="associations.order_rows[*].unit_price_tax_incl" TagName="unit_price_tax_incl"/>
+      <schemaTargets xmi:id="_enzt9PgJEeWRyr1v_6zMdg" RelativeXPathQuery="associations.order_rows[*].unit_price_tax_excl" TagName="unit_price_tax_excl"/>
+      <schemaTargets xmi:id="_enzt9fgJEeWRyr1v_6zMdg" RelativeXPathQuery="associations.order_rows[*].product_price" TagName="product_price"/>
+      <schemaTargets xmi:id="_enzt9vgJEeWRyr1v_6zMdg" RelativeXPathQuery="associations.order_rows[*].product_ean13" TagName="product_ean13"/>
+      <schemaTargets xmi:id="_enzt9_gJEeWRyr1v_6zMdg" RelativeXPathQuery="associations.order_rows[*].product_upc" TagName="product_upc"/>
+      <schemaTargets xmi:id="_enzt-PgJEeWRyr1v_6zMdg" RelativeXPathQuery="associations.order_rows[*].product_reference" TagName="product_reference"/>
+      <schemaTargets xmi:id="_enzt-fgJEeWRyr1v_6zMdg" RelativeXPathQuery="associations.order_rows[*].product_quantity" TagName="product_quantity"/>
+      <schemaTargets xmi:id="_enzt-vgJEeWRyr1v_6zMdg" RelativeXPathQuery="associations.order_rows[*].product_attribute_id" TagName="product_attribute_id"/>
+      <schemaTargets xmi:id="_enzt-_gJEeWRyr1v_6zMdg" RelativeXPathQuery="total_wrapping" TagName="total_wrapping"/>
+      <schemaTargets xmi:id="_enzt_PgJEeWRyr1v_6zMdg" RelativeXPathQuery="associations.order_rows[*].id" TagName="id1"/>
+      <schemaTargets xmi:id="_enzt_fgJEeWRyr1v_6zMdg" RelativeXPathQuery="associations.order_rows[*].product_id" TagName="product_id"/>
+      <schemaTargets xmi:id="_enzt_vgJEeWRyr1v_6zMdg" RelativeXPathQuery="reference" TagName="reference"/>
+      <schemaTargets xmi:id="_enzt__gJEeWRyr1v_6zMdg" RelativeXPathQuery="conversion_rate" TagName="conversion_rate"/>
+      <schemaTargets xmi:id="_enzuAPgJEeWRyr1v_6zMdg" RelativeXPathQuery="round_type" TagName="round_type"/>
+      <schemaTargets xmi:id="_enzuAfgJEeWRyr1v_6zMdg" RelativeXPathQuery="round_mode" TagName="round_mode"/>
+      <schemaTargets xmi:id="_enzuAvgJEeWRyr1v_6zMdg" RelativeXPathQuery="total_wrapping_tax_excl" TagName="total_wrapping_tax_excl"/>
+      <schemaTargets xmi:id="_enzuA_gJEeWRyr1v_6zMdg" RelativeXPathQuery="total_wrapping_tax_incl" TagName="total_wrapping_tax_incl"/>
+      <schemaTargets xmi:id="_enzuBPgJEeWRyr1v_6zMdg" RelativeXPathQuery="total_paid_real" TagName="total_paid_real"/>
+      <schemaTargets xmi:id="_enzuBfgJEeWRyr1v_6zMdg" RelativeXPathQuery="total_shipping_tax_excl" TagName="total_shipping_tax_excl"/>
+      <schemaTargets xmi:id="_enzuBvgJEeWRyr1v_6zMdg" RelativeXPathQuery="carrier_tax_rate" TagName="carrier_tax_rate"/>
+      <schemaTargets xmi:id="_enzuB_gJEeWRyr1v_6zMdg" RelativeXPathQuery="total_shipping_tax_incl" TagName="total_shipping_tax_incl"/>
+      <schemaTargets xmi:id="_enzuCPgJEeWRyr1v_6zMdg" RelativeXPathQuery="total_products_wt" TagName="total_products_wt"/>
+      <schemaTargets xmi:id="_enzuCfgJEeWRyr1v_6zMdg" RelativeXPathQuery="total_shipping" TagName="total_shipping"/>
+      <schemaTargets xmi:id="_enzuCvgJEeWRyr1v_6zMdg" RelativeXPathQuery="total_products" TagName="total_products"/>
+      <schemaTargets xmi:id="_enzuC_gJEeWRyr1v_6zMdg" RelativeXPathQuery="total_paid_tax_excl" TagName="total_paid_tax_excl"/>
+      <schemaTargets xmi:id="_enzuDPgJEeWRyr1v_6zMdg" RelativeXPathQuery="total_paid_tax_incl" TagName="total_paid_tax_incl"/>
+      <schemaTargets xmi:id="_enzuDfgJEeWRyr1v_6zMdg" RelativeXPathQuery="payment" TagName="payment"/>
+      <schemaTargets xmi:id="_enzuDvgJEeWRyr1v_6zMdg" RelativeXPathQuery="total_paid" TagName="total_paid"/>
+      <schemaTargets xmi:id="_enzuD_gJEeWRyr1v_6zMdg" RelativeXPathQuery="total_discounts_tax_excl" TagName="total_discounts_tax_excl"/>
+      <schemaTargets xmi:id="_enzuEPgJEeWRyr1v_6zMdg" RelativeXPathQuery="total_discounts_tax_incl" TagName="total_discounts_tax_incl"/>
+      <schemaTargets xmi:id="_enzuEfgJEeWRyr1v_6zMdg" RelativeXPathQuery="total_discounts" TagName="total_discounts"/>
+      <schemaTargets xmi:id="_enzuEvgJEeWRyr1v_6zMdg" RelativeXPathQuery="mobile_theme" TagName="mobile_theme"/>
+      <schemaTargets xmi:id="_enzuE_gJEeWRyr1v_6zMdg" RelativeXPathQuery="gift_message" TagName="gift_message"/>
+      <schemaTargets xmi:id="_enzuFPgJEeWRyr1v_6zMdg" RelativeXPathQuery="gift" TagName="gift"/>
+      <schemaTargets xmi:id="_enzuFfgJEeWRyr1v_6zMdg" RelativeXPathQuery="id_shop" TagName="id_shop"/>
+      <schemaTargets xmi:id="_enzuFvgJEeWRyr1v_6zMdg" RelativeXPathQuery="recyclable" TagName="recyclable"/>
+      <schemaTargets xmi:id="_enzuF_gJEeWRyr1v_6zMdg" RelativeXPathQuery="secure_key" TagName="secure_key"/>
+      <schemaTargets xmi:id="_enzuGPgJEeWRyr1v_6zMdg" RelativeXPathQuery="id_shop_group" TagName="id_shop_group"/>
+      <schemaTargets xmi:id="_enzuGfgJEeWRyr1v_6zMdg" RelativeXPathQuery="shipping_number" TagName="shipping_number"/>
+      <schemaTargets xmi:id="_enzuGvgJEeWRyr1v_6zMdg" RelativeXPathQuery="invoice_date" TagName="invoice_date"/>
+      <schemaTargets xmi:id="_enzuG_gJEeWRyr1v_6zMdg" RelativeXPathQuery="date_upd" TagName="date_upd"/>
+      <schemaTargets xmi:id="_enzuHPgJEeWRyr1v_6zMdg" RelativeXPathQuery="valid" TagName="valid"/>
+      <schemaTargets xmi:id="_enzuHfgJEeWRyr1v_6zMdg" RelativeXPathQuery="date_add" TagName="date_add"/>
+      <schemaTargets xmi:id="_enzuHvgJEeWRyr1v_6zMdg" RelativeXPathQuery="delivery_date" TagName="delivery_date"/>
+      <schemaTargets xmi:id="_enzuH_gJEeWRyr1v_6zMdg" RelativeXPathQuery="delivery_number" TagName="delivery_number"/>
+      <schemaTargets xmi:id="_enzuIPgJEeWRyr1v_6zMdg" RelativeXPathQuery="current_state" TagName="current_state"/>
+      <schemaTargets xmi:id="_enzuIfgJEeWRyr1v_6zMdg" RelativeXPathQuery="module" TagName="module"/>
+      <schemaTargets xmi:id="_enzuIvgJEeWRyr1v_6zMdg" RelativeXPathQuery="invoice_number" TagName="invoice_number"/>
+      <schemaTargets xmi:id="_enzuI_gJEeWRyr1v_6zMdg" RelativeXPathQuery="id_address_delivery" TagName="id_address_delivery"/>
+      <schemaTargets xmi:id="_enzuJPgJEeWRyr1v_6zMdg" RelativeXPathQuery="id_customer" TagName="id_customer"/>
+      <schemaTargets xmi:id="_enzuJfgJEeWRyr1v_6zMdg" RelativeXPathQuery="id_carrier" TagName="id_carrier"/>
+      <schemaTargets xmi:id="_enzuJvgJEeWRyr1v_6zMdg" RelativeXPathQuery="id_lang" TagName="id_lang"/>
+      <schemaTargets xmi:id="_enzuJ_gJEeWRyr1v_6zMdg" RelativeXPathQuery="id_currency" TagName="id_currency"/>
+      <schemaTargets xmi:id="_enzuKPgJEeWRyr1v_6zMdg" RelativeXPathQuery="id_address_invoice" TagName="id_address_invoice"/>
+      <schemaTargets xmi:id="_enzuKfgJEeWRyr1v_6zMdg" RelativeXPathQuery="id_cart" TagName="id_cart"/>
+      <schemaTargets xmi:id="_enzuKvgJEeWRyr1v_6zMdg" RelativeXPathQuery="id" TagName="id"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_enzuK_gJEeWRyr1v_6zMdg" name="default" dataManager="_enzt8PgJEeWRyr1v_6zMdg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_enzuLPgJEeWRyr1v_6zMdg" id="_8z_OIPgIEeWRyr1v_6zMdg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuLfgJEeWRyr1v_6zMdg" label="product_name" length="79" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuLvgJEeWRyr1v_6zMdg" label="unit_price_tax_incl" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuL_gJEeWRyr1v_6zMdg" label="unit_price_tax_excl" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuMPgJEeWRyr1v_6zMdg" label="product_price" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuMfgJEeWRyr1v_6zMdg" label="product_ean13" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuMvgJEeWRyr1v_6zMdg" label="product_upc" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuM_gJEeWRyr1v_6zMdg" label="product_reference" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuNPgJEeWRyr1v_6zMdg" label="product_quantity" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuNfgJEeWRyr1v_6zMdg" label="product_attribute_id" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuNvgJEeWRyr1v_6zMdg" label="total_wrapping" length="8" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuN_gJEeWRyr1v_6zMdg" label="id1" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuOPgJEeWRyr1v_6zMdg" label="product_id" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuOfgJEeWRyr1v_6zMdg" label="reference" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuOvgJEeWRyr1v_6zMdg" label="conversion_rate" length="8" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuO_gJEeWRyr1v_6zMdg" label="round_type" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuPPgJEeWRyr1v_6zMdg" label="round_mode" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuPfgJEeWRyr1v_6zMdg" label="total_wrapping_tax_excl" length="8" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuPvgJEeWRyr1v_6zMdg" label="total_wrapping_tax_incl" length="8" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuP_gJEeWRyr1v_6zMdg" label="total_paid_real" length="8" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuQPgJEeWRyr1v_6zMdg" label="total_shipping_tax_excl" length="8" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuQfgJEeWRyr1v_6zMdg" label="carrier_tax_rate" length="5" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuQvgJEeWRyr1v_6zMdg" label="total_shipping_tax_incl" length="8" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuQ_gJEeWRyr1v_6zMdg" label="total_products_wt" length="9" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuRPgJEeWRyr1v_6zMdg" label="total_shipping" length="8" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuRfgJEeWRyr1v_6zMdg" label="total_products" length="9" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuRvgJEeWRyr1v_6zMdg" label="total_paid_tax_excl" length="9" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuR_gJEeWRyr1v_6zMdg" label="total_paid_tax_incl" length="9" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuSPgJEeWRyr1v_6zMdg" label="payment" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuSfgJEeWRyr1v_6zMdg" label="total_paid" length="9" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuSvgJEeWRyr1v_6zMdg" label="total_discounts_tax_excl" length="8" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuS_gJEeWRyr1v_6zMdg" label="total_discounts_tax_incl" length="8" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuTPgJEeWRyr1v_6zMdg" label="total_discounts" length="8" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuTfgJEeWRyr1v_6zMdg" label="mobile_theme" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuTvgJEeWRyr1v_6zMdg" label="gift_message" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuT_gJEeWRyr1v_6zMdg" label="gift" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuUPgJEeWRyr1v_6zMdg" label="id_shop" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuUfgJEeWRyr1v_6zMdg" label="recyclable" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuUvgJEeWRyr1v_6zMdg" label="secure_key" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuU_gJEeWRyr1v_6zMdg" label="id_shop_group" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuVPgJEeWRyr1v_6zMdg" label="shipping_number" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuVfgJEeWRyr1v_6zMdg" label="invoice_date" length="19" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuVvgJEeWRyr1v_6zMdg" label="date_upd" length="19" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuV_gJEeWRyr1v_6zMdg" label="valid" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuWPgJEeWRyr1v_6zMdg" label="date_add" length="19" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuWfgJEeWRyr1v_6zMdg" label="delivery_date" length="19" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuWvgJEeWRyr1v_6zMdg" label="delivery_number" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuW_gJEeWRyr1v_6zMdg" label="current_state" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuXPgJEeWRyr1v_6zMdg" label="module" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuXfgJEeWRyr1v_6zMdg" label="invoice_number" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuXvgJEeWRyr1v_6zMdg" label="id_address_delivery" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuX_gJEeWRyr1v_6zMdg" label="id_customer" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuYPgJEeWRyr1v_6zMdg" label="id_carrier" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuYfgJEeWRyr1v_6zMdg" label="id_lang" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuYvgJEeWRyr1v_6zMdg" label="id_currency" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuY_gJEeWRyr1v_6zMdg" label="id_address_invoice" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuZPgJEeWRyr1v_6zMdg" label="id_cart" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_enzuZfgJEeWRyr1v_6zMdg" label="id" length="1" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
